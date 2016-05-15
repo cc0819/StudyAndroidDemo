@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/defineTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义文字框" />
+
+    <Button
+        android:id="@+id/lightningTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="闪光文本" />
+
+    <Button
+        android:id="@+id/defineTopBarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义标题栏" />
+
+
+    <Button
+        android:id="@+id/defineProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义进度条" />
+    <Button
+        android:id="@+id/defineVolume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义音频播放" />
+
+    <Button
+        android:id="@+id/defineScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义滑动控件" />
+
+    <Button
+        android:id="@+id/animaterTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动画测试" />
+</LinearLayout>

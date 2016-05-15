@@ -1,0 +1,14 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.view.LignthningTextView_View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Android TextView Light"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+      />
+
+</FrameLayout>

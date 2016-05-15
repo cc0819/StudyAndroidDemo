@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.view.SquareTextView_View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Android TextView"
+        android:textSize="35dp"
+        android:gravity="center"
+      />
+
+</FrameLayout>
